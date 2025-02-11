@@ -9,8 +9,9 @@ function PetProfile({ pets }) {
   if (!pet) return <p>Pet not found</p>;
 
   return (
-    <div>
+    <div className='pet-profile'>
       <h1>{pet.name}</h1>
+      <div className='img'><img src={pet.image} alt="" /></div>
       <p>Type: {pet.type}</p>
       <p>Age: {pet.age}</p>
       <p>Location: {pet.location}</p>

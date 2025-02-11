@@ -7,12 +7,14 @@
     max-width: 300px;
     text-align: center;
     transition: transform 0.3s ease;
+    opacity: 0.7;
   }
   
   
   .pet-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    opacity: 1.0;
   }
   
   

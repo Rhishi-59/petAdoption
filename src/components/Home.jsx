@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import PetCard from '../components/PetCard';
 import PetFilter from '../components/PetFilter';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 function Home({petData}) {
   const [pets, setPets] = useState([]);
@@ -23,6 +24,7 @@ function Home({petData}) {
           <PetCard key={pet.id} pet={pet} />
         ))}
       </div>
+      <Link to={"/adopt"}><button className='form'>Adoption Form</button></Link>
     </div>
   );
 };
