@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home petData={pets}/>} />
         <Route path="/pet/:id" element={<PetProfile pets={pets} />} />
         <Route path="/adopt" element={<PetForm />} />
       </Routes>
