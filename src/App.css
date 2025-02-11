@@ -1,0 +1,16 @@
+
+.app-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #3498db;
+  margin-bottom: 30px;
+}
+
+
+nav {
+  margin-bottom: 40px;
+}
