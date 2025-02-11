@@ -12,7 +12,7 @@ import elephant from "./assets/elephant.jpg"
 
 function App() {
   const pets = [
-    { id: 1, name: 'Max', type: 'Dog', age: '2', location: 'New York', description: 'Friendly dog', image: dog },
+    { id: 1, name: 'Mandar', type: 'Dog', age: '2', location: 'New York', description: 'Friendly dog', image: dog },
     { id: 2, name: 'Bella', type: 'Cat', age: '1', location: 'California', description: 'Loves cuddles', image: cat },
     { id: 3, name: 'Tomy', type: 'Mouse', age: '2', location: 'China', description: 'Loves parties', image: mouse },
     { id: 4, name: 'Chomu', type: 'Tiger', age: '3', location: 'India', description: 'Loves non-veg', image: tiger},
