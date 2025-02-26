@@ -6,4 +6,9 @@
  4.PetFilter<br>
  5.PetProfile<br>
 
- Will try to integrate mail api to form soon. And make other changes to the UI
+Have used 'formik' and 'yup' for form scgema and validation.<br>
+Will try to integrate mail api to form soon.
+
+Have used 'useState' and 'useEffect' for state management.
+
+And will make other changes to the UI soon.
