@@ -1,5 +1,5 @@
 # Pet Adoption Platform
- Current components are: 
+ Current components are: <br>
  1.Home <br>
  2.PetCard<br>
  3.PetForm<br>
